@@ -6,7 +6,7 @@ export const SITE = {
   desc: "Documentation of BoreNoMore BCI Unity Framework",
   title: "BoreNoMore",
   ogImage: "og-image.jpg",
-  repo: "https://github.com/HYP3R00T/CelestialDocs",
+  repo: "https://gitlab.com/kn-neuron/bore-no-more",
 };
 
 export const LOCALE = {
