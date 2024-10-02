@@ -1,5 +1,6 @@
 ---
 title: Device Module
+sidebar_position: 1
 ---
 
 The module is responsible for conecting Brain-Computer Interface with the framework and passing data to next layers.
