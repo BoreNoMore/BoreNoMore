@@ -7,7 +7,4 @@ BoreNoMore framework consists of Layers through which data flows via Events data
 
 
 ## Available layers:
-- [Device Module](/BoreNoMore/docs/device)
-- [Preprocessing Module](/BoreNoMore/docs/preprocessing)
-- [Classifier Module](/BoreNoMore/docs/classifier)
-- [Game Integration Module](/BoreNoMore/docs/game-integration)
+- [Device Module](./device)
