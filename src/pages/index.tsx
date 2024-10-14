@@ -15,6 +15,7 @@ function HomepageHeader() {
                 <Heading as="h1" className="hero__title">
                     User-Responsive BCI
                 </Heading>
+                    Embrace the User-centric approach with the power of Brain&nbsp;Computer Interface. <br/> 
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
                 <div className={styles.buttons}>
                     <Link
@@ -31,7 +32,10 @@ function UseCases() {
     return (
         <section className={styles.features}>
             <div className="container">
-                <p className={styles.slogan}>Embrace the User-centric approach with the power of Brain&nbsp;Computer Interface. </p>
+                <p className={styles.slogan}>
+                   <strong> Education, self-improvement, entertainment, job-assistance... </strong> <br/>
+                    Possible Applications are limitless - The sky is the limit.
+                </p>
                 <img src="/BoreNoMore/img/use-cases.png" className={styles.image} alt="Use Cases" />
             </div>
         </section>

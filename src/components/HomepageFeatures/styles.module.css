@@ -2,10 +2,20 @@
   display: flex;
   align-items: center;
   padding: 2rem 0;
+  margin: 4rem 0 0 0;
   width: 100%;
+  background-color: var(--ifm-color-primary);
+  color: var(--ifm-color-secondary);
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }

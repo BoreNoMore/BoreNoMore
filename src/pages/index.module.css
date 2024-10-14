@@ -11,8 +11,7 @@
 }
 
 .slogan {
-  font-size: 2rem;
-  font-weight: 500;
+  font-size: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 1rem;
   text-align: center;
@@ -20,6 +19,15 @@
 
 .image {
     margin: 3rem 0rem;
+}
+
+@media screen and (min-width: 996px) {
+    .image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 996px) {
