@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'User-Responsive BCI',
+  title: 'URF-BCI',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -87,24 +87,15 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-          ],
-        },
+//        {
+//          title: 'Docs',
+//          items: [
+//            {
+//              label: 'Tutorial',
+//              to: '/docs/intro',
+//            },
+//          ],
+//        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
