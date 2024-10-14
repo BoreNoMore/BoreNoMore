@@ -59,7 +59,7 @@ export default function HomepageFeatures(): JSX.Element {
         <section className={styles.features}>
             <div className="container">
             <p className={styles.slogan}>
-               <strong> With Developers in mind. </strong> 
+               <strong> Built with developers in mind. </strong> 
             </p>
                 <div className="row">
                     {FeatureList.map((props, idx) => (

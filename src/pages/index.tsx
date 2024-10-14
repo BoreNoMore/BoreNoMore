@@ -12,7 +12,7 @@ function HomepageHeader() {
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
-                <Heading as="h1" className="hero__title">
+                <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
                     User-Responsive BCI
                 </Heading>
                     Embrace the User-centric approach with the power of Brain&nbsp;Computer Interface. <br/> 
@@ -21,7 +21,7 @@ function HomepageHeader() {
                     <Link
                         className="button button--secondary button--lg"
                         to="/docs/intro">
-                        Jump into the Future
+                        Enter the Future
                     </Link>
                 </div>
             </div>
