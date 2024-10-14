@@ -3,8 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'BoreNoMore',
-  tagline: 'Dinosaurs are cool',
+  title: 'User-Responsive BCI',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -65,7 +64,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'BoreNoMore',
+      title: 'URF-BCI',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

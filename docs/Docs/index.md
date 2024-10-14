@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-BoreNoMore framework consists of Layers through which data flows via Events databus.
+User-Responsive Framework consists of Layers through which data flows via Events databus.
 
 
 ## Available layers:
