@@ -34,7 +34,7 @@ function UseCases() {
             <div className="container">
                 <p className={styles.slogan}>
                    <strong> Education, self-improvement, entertainment, job-assistance... </strong> <br/>
-                    Possible Applications are limitless - The sky is the limit.
+                    Possible Applications are endless - The sky is the limit.
                 </p>
                 <img src="/BoreNoMore/img/use-cases.png" className={styles.image} alt="Use Cases" />
             </div>

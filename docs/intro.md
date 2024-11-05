@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 ---
 
-Meet **User-Responsive BCI** for seamless integration of Brain-Computer Interface with Unity3D.
+Meet **User-Responsive BCI** for seamless integration of Brain-Computer Interface with Unity.
 The project focuses on enhancing user experience by leveraging subconscious feedback. The aim is to create a solution that dynamically adapts software to the user's state, ensuring continuous engagement and personalized interaction.
 
 Framework provides an extensive set of tools for:

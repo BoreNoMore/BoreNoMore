@@ -76,10 +76,10 @@ const config: Config = {
           position: 'left',
           label: 'Documentation',
         },
-        {to: '/case-studies', label: 'Case Studies', position: 'left'},
+        //{to: '/case-studies', label: 'Case Studies', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://gitlab.com/kn-neuron/bore-no-more',
+          label: 'Gitlab',
           position: 'right',
         },
       ],
