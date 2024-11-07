@@ -35,7 +35,7 @@ This class is responsible for defining and managing a sequence of preprocessing 
    - field that binds a DataReceivedEvent to the _onDataReceived method, enabling the pipeline to react when new data is received.
 
 4. **PreprocessingPipeline()**
-   - Constructor that is responsible to initialize proper binding (_dataReceivedBinding) with a callback (_onDataReceived) to handle incoming data events. I also registers this binding with 'EventBus<DataReceivedEvent>', allowing given pipeline to receive data for preprocessing as it becomes available.
+   - Constructor that is responsible to initialize proper binding (_dataReceivedBinding) with a callback (_onDataReceived) to handle incoming data events. I also registers this binding with EventBus '<DataReceivedEvent>', allowing given pipeline to receive data for preprocessing as it becomes available.
 
 5. **CreateEffects()**
    - Method responsible for instatiating and configurinf each PPEffect in the ppEffects list.
