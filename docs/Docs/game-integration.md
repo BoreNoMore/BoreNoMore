@@ -3,9 +3,11 @@ title: Game Integration Module
 sidebar_position: 4
 ---
 
-
 ## Game Integration: Event-Based System for Game Functionality Changes
 
+The **Game Integration** module provides a system for integrating events into the game that alter functionality based on predefined conditions. It enables a dynamic response system to external triggers, allowing the game to react to changing data or states.
+
+---
 
 ## Condition
 
@@ -138,8 +140,9 @@ The `GameManager` class integrates the event-based system into the game. It mana
 - **TriggerEvent(string eventName, float currentValue)**  
   Triggers an event with a given name and value.
 
-- **TriggerEvent<T>(string eventName, float currentValue, T additionalData)**  
-  Triggers a generic event with additional data.
+- **TriggerEvent&lt;T&gt;(string eventName, float currentValue, T additionalData)**  
+  Triggers a generic event with additional data, where `T` represents the type of additional data. The `additionalData` can be any type of object or data that is relevant to the event.
+
 
 ---
 
@@ -151,3 +154,4 @@ The `IGameMListener` interface defines a contract for classes that wish to liste
 
 - **OnEventTriggered(string eventName, EventPackage eventState)**  
   Method that gets called when an event is triggered. The event's name and state are passed as parameters.
+
