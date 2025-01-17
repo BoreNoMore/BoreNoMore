@@ -51,8 +51,6 @@ This class is responsible for defining and managing a sequence of preprocessing 
 8. **Update()**
    - In this method, the stored data is processed when the flag indicates readiness. This ensures that data preprocessing only occurs when new data is available and the pipeline is prepared to handle it.
 
-//TODO write explanation about preprocessing process and explain why recursion is used.
-
 ---
 
 ### PPEffect
@@ -71,7 +69,7 @@ The PPEffect class serves as a foundational base class for creating various prep
    - An instance of Kwargs that provides additional configuration parameters. These parameters enable customization for each effect, making the preprocessing pipeline highly adaptable to various data requirements.
 
 4. **ProcessData()**
-   - //TODO after correct and working implementatino finish this
+   - Method called to execute defined Preprocessing Effects on specified data. Recieves and returns *Matrix* type.
 
 5. **AssignBaseFieldsFrom(PPEffect parent)**
    - This method copies essential fields from a parent PPEffect instance, ensuring that a deserialized or cloned effect inherits the necessary configurations, such as outputData, inputDataColumnStates, effectName, and kwargs. This functionality supports the reusability of effect configurations within the preprocessing pipeline.
@@ -85,7 +83,5 @@ The PPEffect class acts as the base for specific preprocessing effects, like:
 It uses the notch_filter function from mne to remove a specified frequency from the data (for example, to eliminate electrical line noise at 50 Hz). The filter is applied to the raw data in matrix form.
 3. **FilterEffect**
 It applies a a bandpass filter from mne, restricting data frequencies to a specified range (lowFreq and highFreq). The filter function retains only the signals within the selected frequency range, which is useful for filtering out noise outside of the desired bandwidth.
-
-//TODO should we describe them in details ?
 
 The derived classes use Python to perform complex signal processing operations. By leveraging the Python.Runtime library, these classes integrate with popular Python libraries, such as numpy and mne, to conduct advanced filtering operations directly on the data.
