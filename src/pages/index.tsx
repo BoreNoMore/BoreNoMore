@@ -13,7 +13,7 @@ function HomepageHeader() {
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
                 <Heading as="h1" className={clsx('hero__title', styles.heroTitle)}>
-                    User-Responsive BCI
+                    Mentalizer
                 </Heading>
                     Embrace the User-centric approach with the power of Brain&nbsp;Computer Interface. <br/> 
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -46,7 +46,7 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             title={`${siteConfig.title}`}
-            description="User-Responsive Brain-Computer Interface Framework.">
+            description="Mentalizer Interface Framework.">
             <HomepageHeader />
             <main>
                 <UseCases />
