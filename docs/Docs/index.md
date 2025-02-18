@@ -2,7 +2,7 @@
 title: Documentation
 ---
 
-User-Responsive Framework consists of Layers through which data flows via Events databus. 
+Mentalizer consists of Layers through which data flows via Events databus. 
 
 <img src="/BoreNoMore/img/modules-flow.png" alt="Modules flow" height="250"/>
 
